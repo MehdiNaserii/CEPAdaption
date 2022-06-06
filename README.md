@@ -6,7 +6,7 @@ Taking care of people who need constant care is essential and its cost is rising
 
 ### Access to dataset 
 
-- The whole Hospital dataset can be downloaded from:
+- The whole Hospital dataset can be downloaded from: https://outbox.eait.uq.edu.au/uqdliu3/uqvitalsignsdataset/index.html
 
 ## Data preparation
 
@@ -16,7 +16,7 @@ Taking care of people who need constant care is essential and its cost is rising
 
 ## Train the rule-based classifiers
 
-- WEKA (v3.8) was used and can be downloaded from:
+- WEKA (v3.8) was used and can be downloaded from: https://waikato.github.io/weka-wiki/downloading_weka/
 - Upload “Hospital_Case_2” by using “open file” button in the “processing” tab of WEKA.
 -In “classify” tab press “choose” button and select “JRip” from “rules” folder.
 - Then right click on “JRip” name in the box next to “choose” button and select “show properties”.
@@ -58,7 +58,7 @@ Taking care of people who need constant care is essential and its cost is rising
 
 ### Access to dataset
 
-- The whole Activity Dataset can be downloaded from:
+- The whole Activity Dataset can be downloaded from: http://archive.ics.uci.edu/ml/datasets/mhealth+dataset
 
 ### Activity data preparation
 - We chose subject 6, 10, 7 (each subject refers to one participate).
@@ -67,7 +67,7 @@ Taking care of people who need constant care is essential and its cost is rising
 
 ### Feature selection (Because of the high number of features related to activity data, a feature selection phase is needed.)
 
-- WEKA (v3.8) was used and can be downloaded from:
+- WEKA (v3.8) was used and can be downloaded from: https://waikato.github.io/weka-wiki/downloading_weka/
 - Three approaches to feature selection were evaluated in this study.
     - Subset evaluation method:
 	    - After uploading “mHealth_subject_6” choose “select attribute” tab.

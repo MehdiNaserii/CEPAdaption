@@ -39,9 +39,9 @@ Taking care of people who need constant care is essential and its cost is rising
 
 ### Siddhi CEP engine (v5.1.0)
 
-- The engine files can be download from:
-- Additionally, for preparing the siddhi engine you can follow these steps in: 
-- As it is explained in the siddhi manual (), first you should define the inputs which refer to data features.
+- The engine files can be download from: https://siddhi.io/en/v5.1/download/
+- Additionally, for preparing the siddhi engine you can follow these steps (Using Siddhi for the first time) in: https://siddhi.io/en/v5.1/docs/quick-start/
+- As it is explained in the siddhi query guide (https://siddhi.io/en/v5.1/docs/query-guide/), first you should define the inputs which refer to data features.
 - After that, the output should be defined which refers to the class.
 - For the rules we follow two approaches:
     - First:
@@ -113,9 +113,9 @@ Taking care of people who need constant care is essential and its cost is rising
 - Finally, the rules in the .txt file is changed to siddhi rule defining language and can be used directly into the engine rule set.
 
 ### Siddhi CEP engine
-- The engine files can be download from:
-- Moreover, for preparing the siddhi engine you can follow these steps in: 
-- As it is explained in the siddhi manual (), first you should define the inputs which refer to data features.
+- The engine files can be download from: https://siddhi.io/en/v5.1/download/
+- Moreover, for preparing the siddhi engine you can follow these steps (Using Siddhi for the first time) in: https://siddhi.io/en/v5.1/docs/quick-start/ 
+- As it is explained in the siddhi query guide (https://siddhi.io/en/v5.1/docs/query-guide/), first you should define the inputs which refer to data features.
 - After that, the output should be defined which refers to the class.
 - For the rules we follow two approaches:
     - First:

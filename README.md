@@ -103,6 +103,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - In classifier output box, you can see the produced rules and the results of “Jrip” classifier.
 - At the end, select the produced rules and copy and paste them in a notepad file and save it with .txt format for the next step.
 - Follow all the above steps for “mHealth_subject_6_10_Proposed” (the combination of subject 6 and subject 10).
+
 **Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps (related config files are existed in Activity/Machine Learning config). According to better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continue the rest parts with it. 
 
 ### Rule mapping

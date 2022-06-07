@@ -8,13 +8,13 @@ Taking care of people who need constant care is essential and its cost is rising
 
 - The whole Hospital dataset can be downloaded from: https://outbox.eait.uq.edu.au/uqdliu3/uqvitalsignsdataset/index.html
 
-## Data preparation
+### Data preparation
 
 - We chose three cases 2, 3, 4 (each case refers to one surgery).
 - We changed the format of each file from .txt to .arff (the WEKA data format) manually (by using Notepad++ (v 7.9.5)).
 - The data file of the three cases exist in Hospital Data folder.
 
-## Train the rule-based classifiers
+### Train the rule-based classifiers
 
 - WEKA (v3.8) was used and can be downloaded from: https://waikato.github.io/weka-wiki/downloading_weka/
 - Upload “Hospital_Case_2” by using “open file” button in the “processing” tab of WEKA.

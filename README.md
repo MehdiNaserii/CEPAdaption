@@ -28,7 +28,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - At the end, select the produced rules and copy and paste them in a notepad file and save it with .txt format for the next step.
 - Follow all the above steps for “Hospital_Case_3_2” (the combination of case 2 and case 3).
 
-**Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps (related config files are existed in Hospital/Machine Learning config) . According to the better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continued the rest with it.
+**Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps (related config files are existed in Hospital/Machine Learning config). According to the better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continued the rest with it.
 
 ### Rule mapping
 

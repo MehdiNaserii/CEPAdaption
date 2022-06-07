@@ -125,4 +125,5 @@ Taking care of people who need constant care is essential and its cost is rising
 	    - Add the rules which were excluded from “mHealth_subject_6_10_Proposed” (the combination of subject 6 and case 10) file to the engine (It means that the subject 10 data was added to subject 6 and the rules was updated based on new subset (the rule adaption manner)).
 	    - Add “mHealth_subject7_Proposed” file as input and compare the output with “mHealth_subject7_Proposed” class for computing the accuracy. 
 	    - Compare the result with the first approach.
+
 **Note:** for personalization in data preparation part, select just one of the cases (as you wish) and divided it into three segments. Then, follow the above parts and steps, exactly.

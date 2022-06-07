@@ -63,7 +63,7 @@ Taking care of people who need constant care is essential and its cost is rising
 ### Activity data preparation
 - We chose subject 6, 10, 7 (each subject refers to one participate).
 - We changed the format of each file from .txt to .arff (the WEKA data format) manually (by using Notepad++ (v 7.9.5)).
--The data files of the three subjects were existed in Activity Data folder.
+- The data files of the three subjects were existed in Activity Data folder.
 
 ### Feature selection (Because of the high number of features related to activity data, a feature selection phase is needed.)
 

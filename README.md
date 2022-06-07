@@ -20,7 +20,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Upload “Hospital_Case_2” by using “open file” button in the “processing” tab of WEKA.
 -In “classify” tab press “choose” button and select “JRip” from “rules” folder.
 - Then right click on “JRip” name in the box next to “choose” button and select “show properties”.
-- In new window, select “open” button and choose “JRip_Config” file (Existed in Hospital_Config folder) then select “OK”.
+- In new window, select “open” button and choose “JRip_Config” file (Existed in Hospital/Machine Learning config/JRip) then select “OK”.
 - Select “percentage spilt” check box and set it on 66% train set.
 -  In the below list choose “class”.
 - Finally, press “start” button and wait until the learning gets completed.
@@ -28,11 +28,11 @@ Taking care of people who need constant care is essential and its cost is rising
 - At the end, select the produced rules and copy and paste them in a notepad file and save it with .txt format for the next step.
 - Follow all the above steps for “Hospital_Case_3_2” (the combination of case 2 and case 3).
 
-**Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps. According to the better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continued the rest with it. 
+**Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps (related config files are existed in Hospital/Machine Learning config) . According to the better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continued the rest with it.
 
 ### Rule mapping
 
-- Rule_Maker.m is a MATLAB code which was developed in MATLAB (v 2018b) in order to map JRip produced rules in WEKA to rule defining language of siddhi CEP engine.
+- Rule_Mapper.m is a MATLAB code which was developed in MATLAB (v 2018b) in order to map JRip produced rules in WEKA to rule defining language of siddhi CEP engine.
 - Upload the .txt file which contains the JRip produced rules (the last step of the previous part) in to the program.
 - Then run the program for mapping the rules.
 - Finally, the rules in the .txt file is changed to siddhi rule defining language and can be used directly into the engine rule set.
@@ -71,39 +71,39 @@ Taking care of people who need constant care is essential and its cost is rising
 - Three approaches to feature selection were evaluated in this study.
     - Subset evaluation method:
 	    - After uploading “mHealth_subject_6” choose “select attribute” tab.
-	    - In “Attribute Evaluation” select “ConsistencySubsetEval” and in “Search Method” select “BestFirst” (use the “Consistency_Config” and “BestFirst_Config” by right clicking on the name of them and clicking on “open” button and then choosing the file).
+	    - In “Attribute Evaluation” select “ConsistencySubsetEval” and in “Search Method” select “BestFirst” (use the “Consistency_Config” and “BestFirst_Config” (in Activity/Feature Selection/SubsetEval and in Activity/Feature Selection/Search Method) by right clicking on the name of them and clicking on “open” button and then choosing the file).
 	    - The executed subset is “mHealth_Subject_6_Consistency_Best”.
 	    - We compared consistency method with correlation feature selection method. The consistency method had better results.
 	- Using from Pythagorean theorem:
 	    - Formula F=√(X^2 + Y^2 + Z^2 )  was used for this feature selection method.
-	    - The executed subset is “mHealth_Subject_6_Consistency_Lenght”.
+	    - The executed subset is “mHealth_Subject_6_Consistency_Pythagoras”.
 	- Combination method
 	    - Combination of seven attribute evaluator methods and the concept of subset evaluation.
 	    - In this method top ten attributes of each attribute evaluator method were selected and seven batches were created.
 	    - From each batch, attributes with at least three repetitions in each batch were added to new subset.
 	    - Upload “mHealth_subject_6” choose “select attribute” tab
-	    - Each time chose one of these methods (“chi-squareAttributeEval”, “correlationAttributeEval”, “OneRAttributeEval”, “filterAttributeEval”, “gainratioAttributeEval”, “informationgainAttributeEval”, and “symmetricuncertaintyAttributeEval”) with “Ranker” search method (use each config file for each evaluator and “Ranker_Config” by right clicking on the name of them and clicking on “open” Button and then choosing the file).
+	    - Each time chose one of these methods (“chi-squareAttributeEval”, “correlationAttributeEval”, “OneRAttributeEval”, “filteredAttributeEval”, “gainratioAttributeEval”, “informationgainAttributeEval”, and “symmetricuncertaintyAttributeEval”) with “Ranker” search method (use each config file for each evaluator and “Ranker_Config” (in Activity/Feature Selection/AttributeEval and in Activity/Feature Selection/Search Method) by right clicking on the name of them and clicking on “open” Button and then choosing the file).
 	    - Select top ten features from every attribute evaluation method and create seven batches, manually.
 	    - Choose a feature with at least three repetitions in each batch, manually.
 	    - Create the final subset
-	    - The executed subset is “mHealth_Subject_6_Ranking”
+	    - The executed subset is “mHealth_Subject_6_Proposed”
 - As the evaluation results have shown the Combination method had the best result in terms of accuracy and rule number by using JRip. Thus, the next steps will be continued with the executed subset of this method.
-- Apply the combination method on mHealth_Subject_6_10 (the combination of subject 6 and subject 10) and mHealth_Subject_7 for the rest of process. The executed files are mHealth_subject_6_10_Ranking and mHealth_subject_7_Ranking, respectively.  
+- Apply the combination method on mHealth_Subject_6_10 (the combination of subject 6 and subject 10) and mHealth_Subject_7 for the rest of process. The executed files are mHealth_subject_6_10_Proposed and mHealth_subject_7_Proposed, respectively.  
 
 ### Train the rule based classifiers
 
 - The learning process was done in WEKA.
-- Upload “mHealth_Subject_6_Ranking” by using “open file” Button in “processing” tab of WEKA.
+- Upload “mHealth_Subject_6_Proposed” by using “open file” Button in “processing” tab of WEKA.
 - In “classify” tab press “choose” button and select “JRip” from “rules” folder.
 - Then right click on “JRip” name in the box next to “choose” Button and select “show properties”.
-- In the new window, select “open” Button and choose “JRip_Config” file (Existed in Activity_Config folder) then select “OK”.
+- In the new window, select “open” Button and choose “JRip_Config” file (Existed in Activity/Machine Learning config/JRip) then select “OK”.
 - Select “percentage spilt” check box and set it on 66% train set.
 - In the below list choose “class”.
 - Finally, press “start” Button and wait until the learning get completed.
 - In classifier output box, you can see the produced rules and the results of “Jrip” classifier.
 - At the end, select the produced rules and copy and paste them in a notepad file and save it with .txt format for the next step.
-- Follow all the above steps for “mHealth_subject_6_10_Ranking” (the combination of subject 6 and subject 10).
-**Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps. According to better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continue the rest parts with it. 
+- Follow all the above steps for “mHealth_subject_6_10_Proposed” (the combination of subject 6 and subject 10).
+**Note:** we used three kinds of rule-based classifiers (OneR, Part and JRipt) in our study. Other classifiers can be evaluated with above explained steps (related config files are existed in Activity/Machine Learning config). According to better results of “JRip” in terms of accuracy and rules number, we chose this classifier and continue the rest parts with it. 
 
 ### Rule mapping
 
@@ -119,10 +119,10 @@ Taking care of people who need constant care is essential and its cost is rising
 - After that, the output should be defined which refers to the class.
 - For the rules we follow two approaches:
     - First:
-	    - Add the rules which were excluded from “mHealth_Subject_6_Ranking” file to the engine.
-	    - Add “mHealth_subject_7_Ranking” file as input and compare the output with “mHealth_subject_7” class for computing the accuracy.
+	    - Add the rules which were excluded from “mHealth_Subject_6_Proposed” file to the engine.
+	    - Add “mHealth_subject_7_Proposed” file as input and compare the output with “mHealth_subject_7_Proposed” class for computing the accuracy.
 	- Second
-	    - Add the rules which were excluded from “mHealth_subject_6_10_Ranking” (the combination of subject 6 and case 10) file to the engine (It means that the subject 10 data was added to subject 6 and the rules was updated based on new subset (the rule adaption manner)).
-	    - Add “mHealth_subject7_Ranking” file as input and compare the output with “mHealth_subject7_Ranking” class for computing the accuracy. 
+	    - Add the rules which were excluded from “mHealth_subject_6_10_Proposed” (the combination of subject 6 and case 10) file to the engine (It means that the subject 10 data was added to subject 6 and the rules was updated based on new subset (the rule adaption manner)).
+	    - Add “mHealth_subject7_Proposed” file as input and compare the output with “mHealth_subject7_Proposed” class for computing the accuracy. 
 	    - Compare the result with the first approach.
 **Note:** for personalization in data preparation part, select just one of the cases (as you wish) and divided it into three segments. Then, follow the above parts and steps, exactly.

@@ -90,7 +90,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - As the evaluation results have shown the Combination method had the best result in terms of accuracy and rule number by using JRip. Thus, the next steps will be continued with the executed subset of this method.
 - Apply the combination method on mHealth_Subject_6_10 (the combination of subject 6 and subject 10) and mHealth_Subject_7 for the rest of process. The executed files are mHealth_subject_6_10_Proposed and mHealth_subject_7_Proposed, respectively.  
 
-### Train the rule based classifiers
+### Train the rule-based classifiers
 
 - The learning process was done in WEKA.
 - Upload “mHealth_Subject_6_Proposed” by using “open file” Button in “processing” tab of WEKA.

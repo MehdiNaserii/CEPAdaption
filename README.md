@@ -35,7 +35,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Rule_Mapper.m is a MATLAB code which was developed in MATLAB (v 2018b) in order to map JRip produced rules in WEKA to rule defining language of siddhi CEP engine.
 - Copy the JRip produced rules (the last step of the previous part) in the "WekaExtractedRules.txt" file and import the file into the program.(The produced rules are in the "Classifier output" part of WEKA under the heading "JRIP Rules:")
 - Then run the program for mapping the rules.
-- Finally, the rules in the "WekaExtractedRules.txt" file is changed to siddhi rule defining language (the new rules with new syntax are in "Rule_Map.txt") and can be used directly into the engine rule set.
+- Finally, the rules in the "WekaExtractedRules.txt" file is changed to siddhi rule defining language (the new rules with new syntax are in "Rule_Map.txt" that will be created by running the code.) and can be used directly into the engine rule set.
 
 ### Siddhi CEP engine (v5.1.0)
 
@@ -46,10 +46,10 @@ Taking care of people who need constant care is essential and its cost is rising
 - For the rules we follow two approaches:
     - First:
         - Add the rules which were excluded from “Hospital_Case_2” file to the engine.
-        - Add “Hospital_Case_4” file as input and compare the output with “Hospital_Case_4” class, for computing the accuracy.
+        - Add “Hospital_Case_4” (manually) file as input and compare the output with “Hospital_Case_4” class, for computing the accuracy.
     - Second:
         - Add the rules which were excluded from “Hospital_Case_3_2” (the combination of case 2 and case 3) file to the engine (It means that the case 3 data was added to case 2 and the rules were updated based on the new subset (the rule adaption manner)).
-        - Add “Hospital_Case_4” file as input and compare the output with “Hospital_Case_4” class for computing the accuracy.
+        - Add “Hospital_Case_4” (manually) file as input and compare the output with “Hospital_Case_4” class for computing the accuracy.
         - Compare the result with the first approach.
 
 **Note:** for personalization in data preparation part select just one of the cases (as you wish) and divide it into three segments. Then, follow the above parts and steps, exactly.
@@ -111,7 +111,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Rule_Maker.m a MATLAB code which was developed in MATLAB (v 2018b) in order to map JRip produced rules in WEKA to rule defining language of siddhi CEP engine.
 - Copy the JRip produced rules (the last step of the previous part) in the "WekaExtractedRules.txt" file and import the file into the program.(The produced rules are in the "Classifier output" part of WEKA under the heading "JRIP Rules:")
 - Then, run the program for mapping the rules.
-- Finally, the rules in the "WekaExtractedRules.txt" file is changed to siddhi rule defining language (the new rules with new syntax are in "Rule_Map.txt") and can be used directly into the engine rule set.
+- Finally, the rules in the "WekaExtractedRules.txt" file is changed to siddhi rule defining language (the new rules with new syntax are in "Rule_Map.txt" that will be created by running the code.) and can be used directly into the engine rule set.
 
 ### Siddhi CEP engine
 - The engine files can be download from: https://siddhi.io/en/v5.1/download/
@@ -121,10 +121,10 @@ Taking care of people who need constant care is essential and its cost is rising
 - For the rules we follow two approaches:
     - First:
 	    - Add the rules which were excluded from “mHealth_Subject_6_Proposed” file to the engine.
-	    - Add “mHealth_subject_7_Proposed” file as input and compare the output with “mHealth_subject_7_Proposed” class for computing the accuracy.
+	    - Add “mHealth_subject_7_Proposed” file as input (manually) and compare the output with “mHealth_subject_7_Proposed” class for computing the accuracy.
 	- Second
 	    - Add the rules which were excluded from “mHealth_subject_6_10_Proposed” (the combination of subject 6 and case 10) file to the engine (It means that the subject 10 data was added to subject 6 and the rules was updated based on new subset (the rule adaption manner)).
-	    - Add “mHealth_subject7_Proposed” file as input and compare the output with “mHealth_subject7_Proposed” class for computing the accuracy. 
+	    - Add “mHealth_subject7_Proposed” file as input (manually) and compare the output with “mHealth_subject7_Proposed” class for computing the accuracy. 
 	    - Compare the result with the first approach.
 
 **Note:** for personalization in data preparation part, select just one of the cases (as you wish) and divided it into three segments. Then, follow the above parts and steps, exactly.

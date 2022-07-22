@@ -46,10 +46,10 @@ Taking care of people who need constant care is essential and its cost is rising
 - For the rules we follow two approaches:
     - First:
         - Add the rules which were excluded from “Hospital_Case_2” file to the engine.
-        - Add “Hospital_Case_4” (manually) file as input and compare the output with “Hospital_Case_4” class, for computing the accuracy.
+        - Add “Hospital_Case_4” (manually by "Siddhi event simulation") file as input and compare the output with “Hospital_Case_4” class, for computing the accuracy.
     - Second:
         - Add the rules which were excluded from “Hospital_Case_3_2” (the combination of case 2 and case 3) file to the engine (It means that the case 3 data was added to case 2 and the rules were updated based on the new subset (the rule adaption manner)).
-        - Add “Hospital_Case_4” (manually) file as input and compare the output with “Hospital_Case_4” class for computing the accuracy.
+        - Add “Hospital_Case_4” (manually by "Siddhi event simulation") file as input and compare the output with “Hospital_Case_4” class for computing the accuracy.
         - Compare the result with the first approach.
 
 **Note:** for personalization in data preparation part select just one of the cases (as you wish) and divide it into three segments. Then, follow the above parts and steps, exactly.
@@ -121,10 +121,10 @@ Taking care of people who need constant care is essential and its cost is rising
 - For the rules we follow two approaches:
     - First:
 	    - Add the rules which were excluded from “mHealth_Subject_6_Proposed” file to the engine.
-	    - Add “mHealth_subject_7_Proposed” file as input (manually) and compare the output with “mHealth_subject_7_Proposed” class for computing the accuracy.
+	    - Add “mHealth_subject_7_Proposed” file as input (manually by "Siddhi event simulation") and compare the output with “mHealth_subject_7_Proposed” class for computing the accuracy.
 	- Second
 	    - Add the rules which were excluded from “mHealth_subject_6_10_Proposed” (the combination of subject 6 and case 10) file to the engine (It means that the subject 10 data was added to subject 6 and the rules was updated based on new subset (the rule adaption manner)).
-	    - Add “mHealth_subject7_Proposed” file as input (manually) and compare the output with “mHealth_subject7_Proposed” class for computing the accuracy. 
+	    - Add “mHealth_subject7_Proposed” file as input (manually by "Siddhi event simulation") and compare the output with “mHealth_subject7_Proposed” class for computing the accuracy. 
 	    - Compare the result with the first approach.
 
 **Note:** for personalization in data preparation part, select just one of the cases (as you wish) and divided it into three segments. Then, follow the above parts and steps, exactly.

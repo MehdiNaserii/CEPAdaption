@@ -1,4 +1,4 @@
-fileList = textread('Jrip_Hospital_Case3_4.txt', '%s');
+fileList = textread('WekaExtractedRules.txt', '%s');
 
 fid = fopen('Rule_Map.txt', 'w');
 j=1;

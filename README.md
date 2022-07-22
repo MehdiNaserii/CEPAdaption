@@ -33,9 +33,9 @@ Taking care of people who need constant care is essential and its cost is rising
 ### Rule mapping
 
 - Rule_Mapper.m is a MATLAB code which was developed in MATLAB (v 2018b) in order to map JRip produced rules in WEKA to rule defining language of siddhi CEP engine.
-- Upload the .txt file which contains the JRip produced rules (the last step of the previous part) in to the program.
+- Copy the JRip produced rules (the last step of the previous part) in the "WekaExtractedRules.txt" file and import the file into the program.(The produced rules are in the "Classifier output" part of WEKA under the heading "JRIP Rules:")
 - Then run the program for mapping the rules.
-- Finally, the rules in the .txt file is changed to siddhi rule defining language and can be used directly into the engine rule set.
+- Finally, the rules in the "WekaExtractedRules.txt" file is changed to siddhi rule defining language (the new rules with new syntax are in "Rule_Map.txt") and can be used directly into the engine rule set.
 
 ### Siddhi CEP engine (v5.1.0)
 
@@ -109,9 +109,9 @@ Taking care of people who need constant care is essential and its cost is rising
 ### Rule mapping
 
 - Rule_Maker.m a MATLAB code which was developed in MATLAB (v 2018b) in order to map JRip produced rules in WEKA to rule defining language of siddhi CEP engine.
-- Upload the .txt file which contains the JRip produced rules (the last step of the previous part) in to the program.
+- Copy the JRip produced rules (the last step of the previous part) in the "WekaExtractedRules.txt" file and import the file into the program.(The produced rules are in the "Classifier output" part of WEKA under the heading "JRIP Rules:")
 - Then, run the program for mapping the rules.
-- Finally, the rules in the .txt file is changed to siddhi rule defining language and can be used directly into the engine rule set.
+- Finally, the rules in the "WekaExtractedRules.txt" file is changed to siddhi rule defining language (the new rules with new syntax are in "Rule_Map.txt") and can be used directly into the engine rule set.
 
 ### Siddhi CEP engine
 - The engine files can be download from: https://siddhi.io/en/v5.1/download/

@@ -85,7 +85,7 @@ Taking care of people who need constant care is essential and its cost is rising
 		- In this method, the top ten attributes of each attribute evaluator method are selected and seven batches are created.
 		- From each batch attributes with at least three repetitions in each batch are added to the new subset.
 		- Upload “mHealth_subject_6” and choose the “select attribute” tab
-		- Each time choose one of these methods (“chi-squareAttributeEval”, “correlationAttributeEval”, “OneRAttributeEval”, “filteredAttributeEval”, “gainratioAttributeEval”, “informationgainAttributeEval”, and “symmetricuncertaintyAttributeEval”) with “Ranker” search method (use each config file for each evaluator and “Ranker_Config” (in Activity/Feature Selection/AttributeEval and in Activity/Feature Selection/Search Method) by right clicking on the name of them and clicking on “open” Button and then choosing the file).
+		- Each time choose one of these methods (“chi-squareAttributeEval”, “correlationAttributeEval”, “OneRAttributeEval”, “filteredAttributeEval”, “gainratioAttributeEval”, “informationgainAttributeEval”, and “symmetricuncertaintyAttributeEval”) with “Ranker” search method (use each config file for each evaluator and “Ranker_Config” (in Activity/Feature Selection Config/AttributeEval and in Activity/Feature Selection Config/Search Method) by right clicking on the name of them and clicking on “open” Button and then choosing the file).
 		- Select the top ten features from every attribute evaluation method and create seven batches, manually.
 		- Choose a feature with at least three repetitions in each batch, manually.
 		- Create the final subset

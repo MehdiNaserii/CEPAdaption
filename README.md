@@ -20,7 +20,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Upload “Hospital_Case_2” by using the “open file” button in the “processing” tab of WEKA.
 - In the “classify” tab press the “choose” button and select the “JRip” from the “rules” folder.
 - Then right-click on the “JRip” name in the box next to the “choose” button and select “show properties”.
-- In the new window, select the “open” button and choose the “JRip” config file (Existed in Hospital/Machine Learning config/JRip) then select “OK”.
+- In the new window, select the “open” button and choose the “JRip” config file (Existed in Hospital/Machine Learning Config/JRip) then select “OK”.
 - Select the “percentage split” check box and set it to 66% for train set.
 - In the blow list, choose “class” as the target attribute.
 - Finally, press the “start” button and wait until the learning gets completed.
@@ -29,7 +29,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - In the end, copy and paste rules into the "WekaExtractedRules.txt" (in the “Rule Mapper” folder) and save them for the next step. 
 - Follow all of the above steps for “Hospital_Case_3_2” (the combination of case 2 and case 3).
 
-**Note:** We used three kinds of rule-based classifiers (OneR, Part, and JRipt) in our study. Other classifiers can be evaluated in the following steps explained above. Please note related config files exist in Hospital/Machine Learning config. Since “JRip” is producing better results in terms of accuracy and rules number, we chose this classifier and continued the rest of our study with it.
+**Note:** We used three kinds of rule-based classifiers (OneR, Part, and JRipt) in our study. Other classifiers can be evaluated in the following steps explained above. Please note related config files exist in Hospital/Machine Learning Config. Since “JRip” is producing better results in terms of accuracy and rules number, we chose this classifier and continued the rest of our study with it.
 
 ### Rule mapping
 
@@ -99,7 +99,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Upload “mHealth_Subject_6_Proposed” by using the “open file” button in the “processing” tab of WEKA.
 - In the “classify” tab press the “choose” button and select “JRip” from the “rules” folder.
 - Then right-click on the “JRip” name in the box next to the “choose” Button and select “show properties”.
-- In the new window, select the “open” button and choose the “JRip" config file (Existed in Activity/Machine Learning config/JRip) then select “OK”.
+- In the new window, select the “open” button and choose the “JRip" config file (Existed in Activity/Machine Learning Config/JRip) then select “OK”.
 - Select the “percentage split” check box and set it to 66% for train set.
 - In the blow list, choose “class” as the target attribute.
 - Finally, press the “start” button and wait until the learning gets completed.
@@ -108,7 +108,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - In the end, copy and paste rules into the "WekaExtractedRules.txt" (in the “Rule Mapper” folder) and save them for the next step. 
 - Follow all of the above steps for “mHealth_subject_6_10_Proposed” (the combination of subject 6 and subject 10).
 
-**Note:** We used three kinds of rule-based classifiers (OneR, Part, and JRip) in our study. Other classifiers can be evaluated in the following steps explained above. Please note related config files exist in Hospital/Machine Learning config. Since “JRip” is producing better results in terms of accuracy and rules number, we chose this classifier and continued the rest of our study with it.
+**Note:** We used three kinds of rule-based classifiers (OneR, Part, and JRip) in our study. Other classifiers can be evaluated in the following steps explained above. Please note related config files exist in Hospital/Machine Learning Config. Since “JRip” is producing better results in terms of accuracy and rules number, we chose this classifier and continued the rest of our study with it.
 
 ### Rule mapping
 

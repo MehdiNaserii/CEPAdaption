@@ -74,7 +74,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Three approaches to feature selection were evaluated in this study.
 	- Subset evaluation method:
 		- After uploading “mHealth_subject_6” choose the “select attribute” tab.
-		- In “Attribute Evaluation” select “ConsistencySubsetEval” and in “Search Method” select “BestFirst” (use the “ConsistencySubsetEval” and “BestFirst” (in Activity/Feature Selection Config/SubsetEval and Activity/Feature Selection Config/Search Method) by right-clicking on the name of them and clicking on “open” button and then choosing the file).
+		- In “Attribute Evaluation” select “ConsistencySubsetEval” and in “Search Method” select “BestFirst” (use the “ConsistencySubsetEval” config file and “BestFirst” config file (in Activity/Feature Selection Config/SubsetEval and Activity/Feature Selection Config/Search Method) by right-clicking on the name of them and clicking on “open” button and then choosing the file).
 		- The executed subset is “mHealth_Subject_6_Consistency_Best”.
 		- We compared the consistency method with the correlation feature selection method. The consistency method had better results.
 	- Using from Pythagorean theorem:
@@ -85,7 +85,7 @@ Taking care of people who need constant care is essential and its cost is rising
 		- In this method, the top ten attributes of each attribute evaluator method are selected and seven batches are created.
 		- From each batch attributes with at least three repetitions in each batch are added to the new subset.
 		- Upload “mHealth_subject_6” and choose the “select attribute” tab
-		- Each time choose one of these methods (“chi-squareAttributeEval”, “correlationAttributeEval”, “OneRAttributeEval”, “filteredAttributeEval”, “gainratioAttributeEval”, “informationgainAttributeEval”, and “symmetricuncertaintyAttributeEval”) with “Ranker” search method (use each config file for each evaluator and “Ranker_Config” (in Activity/Feature Selection Config/AttributeEval and in Activity/Feature Selection Config/Search Method) by right clicking on the name of them and clicking on “open” Button and then choosing the file).
+		- Each time choose one of these methods (“chi-squareAttributeEval”, “correlationAttributeEval”, “OneRAttributeEval”, “filteredAttributeEval”, “gainratioAttributeEval”, “informationgainAttributeEval”, and “symmetricuncertaintyAttributeEval”) with “Ranker” search method (use each config file for each evaluator and “Ranker” config file (in Activity/Feature Selection Config/AttributeEval and in Activity/Feature Selection Config/Search Method) by right clicking on the name of them and clicking on “open” Button and then choosing the file).
 		- Select the top ten features from every attribute evaluation method and create seven batches, manually.
 		- Choose a feature with at least three repetitions in each batch, manually.
 		- Create the final subset

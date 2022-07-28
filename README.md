@@ -20,7 +20,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Upload “Hospital_Case_2” by using the “open file” button in the “processing” tab of WEKA.
 - In the “classify” tab press the “choose” button and select the “JRip” from the “rules” folder.
 - Then right-click on the “JRip” name in the box next to the “choose” button and select “show properties”.
-- In the new window, select the “open” button and choose the “JRip_Config” file (Existed in Hospital/Machine Learning config/JRip) then select “OK”.
+- In the new window, select the “open” button and choose the “JRip” config file (Existed in Hospital/Machine Learning config/JRip) then select “OK”.
 - Select the “percentage split” check box and set it to 66% for train set.
 - In the blow list, choose “class” as the target attribute.
 - Finally, press the “start” button and wait until the learning gets completed.
@@ -99,7 +99,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Upload “mHealth_Subject_6_Proposed” by using the “open file” button in the “processing” tab of WEKA.
 - In the “classify” tab press the “choose” button and select “JRip” from the “rules” folder.
 - Then right-click on the “JRip” name in the box next to the “choose” Button and select “show properties”.
-- In the new window, select the “open” button and choose the “JRip_Config” file (Existed in Activity/Machine Learning config/JRip) then select “OK”.
+- In the new window, select the “open” button and choose the “JRip" config file (Existed in Activity/Machine Learning config/JRip) then select “OK”.
 - Select the “percentage split” check box and set it to 66% for train set.
 - In the blow list, choose “class” as the target attribute.
 - Finally, press the “start” button and wait until the learning gets completed.

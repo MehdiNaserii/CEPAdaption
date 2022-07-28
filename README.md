@@ -60,7 +60,7 @@ Taking care of people who need constant care is essential and its cost is rising
 
 ### Access to dataset
 
-- The whole Activity Dataset [2,3] can be downloaded from: http://archive.ics.uci.edu/ml/datasets/mhealth+dataset 
+- The whole Activity Dataset [2, 3] can be downloaded from: http://archive.ics.uci.edu/ml/datasets/mhealth+dataset 
 
 ### Activity data preparation
 

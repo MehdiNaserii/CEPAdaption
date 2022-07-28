@@ -74,7 +74,7 @@ Taking care of people who need constant care is essential and its cost is rising
 - Three approaches to feature selection were evaluated in this study.
 	- Subset evaluation method:
 		- After uploading “mHealth_subject_6” choose the “select attribute” tab.
-		- In “Attribute Evaluation” select “ConsistencySubsetEval” and in “Search Method” select “BestFirst” (use the “Consistency_Config” and “BestFirst_Config” (in Activity/Feature Selection/SubsetEval and Activity/Feature Selection/Search Method) by right-clicking on the name of them and clicking on “open” button and then choosing the file).
+		- In “Attribute Evaluation” select “ConsistencySubsetEval” and in “Search Method” select “BestFirst” (use the “ConsistencySubsetEval” and “BestFirst” (in Activity/Feature Selection Config/SubsetEval and Activity/Feature Selection Config/Search Method) by right-clicking on the name of them and clicking on “open” button and then choosing the file).
 		- The executed subset is “mHealth_Subject_6_Consistency_Best”.
 		- We compared the consistency method with the correlation feature selection method. The consistency method had better results.
 	- Using from Pythagorean theorem:
